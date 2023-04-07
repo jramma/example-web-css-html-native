@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -637,13 +639,26 @@ video {
 #part4 {
     width: 100%;
     min-height: 100%;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 97px;
+    font-family: 'Montserrat';
 }
+#part4 h2{
+    font-size: 1rem;
+    margin-top: 1em;
+    margin-bottom: 0.1em;
+}
+#part4 b{
+    font-family: 'Montserrat';
+    font-size:1em;
 
+}
+#part4 em{
+    margin-bottom: 0.5em;
+
+}
 #bookpic {
     width: 328px;
     height: 467px;
