@@ -142,14 +142,14 @@ body {
   right: 2vh;
 }
 .fake-ui > .nav > .item {
-  background:  rgb(29, 146, 86);
+  background:  rgba(29, 146, 86, 0.621);
   display: inline-block;
   height: 2vh;
   width: 13vh;
   margin-left: 2vh;
   text-align: center;
   transition: 1s;
-
+  border-radius: 1rem;
 }
 .fake-ui > .nav > .item:hover{
   background:  rgb(29, 146, 86);
