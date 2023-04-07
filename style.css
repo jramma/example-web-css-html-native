@@ -254,10 +254,7 @@ div.links a {
 
 @media only screen and (max-width: 600px) {
     #sidenav {
-        display: block;
-        width: 7rem;
-        height: auto;
-        border-bottom-left-radius: 1rem;
+      
     }
 
     #sidenav a {
@@ -277,7 +274,12 @@ div.links a {
 
     #sidenav #close {
         text-align: right;
-        margin-right: 1rem;
+
+    }
+    #sidenav #close:hover {
+        text-align: right;
+        cursor: pointer;
+        margin-top: 1rem;
 
     }
 }
@@ -315,8 +317,8 @@ button:hover {
     filter: grayscale(2);
     background-size: contain;
     background-position: center;
-    border: 3px solid rgb(235, 231, 231);
     background-repeat: no-repeat;
+    margin-right:1rem ;
 }
 
 #myimg:hover {
@@ -645,17 +647,21 @@ video {
     padding: 20px 97px;
     font-family: 'Montserrat';
 }
-
+#erasmus{
+    margin-left: 2rem;
+}
 #part4 h2 {
     font-size: 1rem;
     margin-top: 1em;
     margin-bottom: 0.1em;
+    
 }
 
 #part4 b {
     font-family: 'Montserrat';
     font-size: 1em;
-
+   
+    position: inherit;
 }
 
 #part4 em {
@@ -666,7 +672,8 @@ video {
 #bookpic {
     width: 328px;
     height: 467px;
-    background-color: chartreuse;
+    margin-right:1rem ;
+
 }
 
 div#idiomas h3 {
