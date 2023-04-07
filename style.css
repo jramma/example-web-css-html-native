@@ -645,24 +645,33 @@ video {
     padding: 20px 97px;
     font-family: 'Montserrat';
 }
-#part4 h2{
+
+#part4 h2 {
     font-size: 1rem;
     margin-top: 1em;
     margin-bottom: 0.1em;
 }
-#part4 b{
+
+#part4 b {
     font-family: 'Montserrat';
-    font-size:1em;
+    font-size: 1em;
 
 }
-#part4 em{
+
+#part4 em {
     margin-bottom: 0.5em;
 
 }
+
 #bookpic {
     width: 328px;
     height: 467px;
     background-color: chartreuse;
+}
+
+div#idiomas h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
 }
 
 #bookdis {
