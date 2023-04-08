@@ -116,26 +116,16 @@ body {
   cursor: pointer;
 }
 
-.fake-ui > .logo {
-  position: fixed;
-  top: 2vh;
-  left: 2vh;
-  height: 3vh;
-  width: 2.5vh;
-  color:  rgb(29, 146, 86);
-  font-size: 2rem;
-  transition: 1s;
+b {
   font-family: 'Plaster', cursive;
-
+  color: rgb(29, 146, 86);
+  line-height: 30px;
+  font-size: 2rem;
+  position: absolute;
+  top: 37px;
+  left: 30px;
 }
-.fake-ui > .logo:hover {
-  transition: 1s;
-  position: fixed;
-  top: 2vh;
-  left: 2vh;
-  font-size: 2.5rem;
 
-}
 .fake-ui > .nav {
   position: fixed;
   top: 2vh;
