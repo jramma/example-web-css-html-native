@@ -565,15 +565,23 @@ button:hover {
 }
 
 #p1 {
-    background-image: url('');
+    background-image: url('img/css.png');
+    transition: 1s;
+    border-radius: 1rem;
 }
 
 #p2 {
-    background-image: url('');
+    background-image: url('img/html5.png');
+    transition: 1s;
+    border-radius: 1rem;
+
 }
 
 #p3 {
-    background-image: url('');
+    background-image: url('img/js.png');
+    transition: 1s;
+    border-radius: 1rem;
+
 }
 
 #p4 {
