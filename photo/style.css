@@ -122,7 +122,7 @@ b {
   line-height: 30px;
   font-size: 2rem;
   position: absolute;
-  top: 37px;
+  top: 10px;
   left: 30px;
 }
 
@@ -132,7 +132,7 @@ b {
   right: 2vh;
 }
 .fake-ui > .nav > .item {
-  background:  rgba(29, 146, 86, 0.621);
+  color: black;
   display: inline-block;
   height: 2vh;
   width: 13vh;
@@ -142,7 +142,6 @@ b {
   border-radius: 1rem;
 }
 .fake-ui > .nav > .item:hover{
-  background:  rgb(29, 146, 86);
   display: inline-block;
   height: 3vh;
   width: 16vh;

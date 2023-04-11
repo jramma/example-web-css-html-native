@@ -63,14 +63,37 @@ backendLink.addEventListener("click", function (event) {
 
 	// Cambia el contenido de la galería para mostrar videos de Backend
 	gallery.innerHTML = `
-    <div class="row">
-      <div class="pics" id="v1"><video src="tesla.mp4" autoplay loop controls></video></div>
-      <div class="pics" id="v2"><video src="dc.mp4" loop controls></video></div>
-    </div>
-    <div class="row">
-      <div class="pics" id="v3"><video src="micro.mp4" loop controls></video></div>
-      <div class="pics" id="v4"><video src="neu.mp4" loop controls></video></div>
-    </div>
+	<div class="row">
+	<div class="pics" id="p4"></div>
+	<div class="pics" id="p5"></div>
+	<div class="pics" id="p6"></div>
+	<div class="pics" id="p7"></div>
+	<div class="pics" id="p9"></div>
+	<div class="pics" id="p8"></div>
+</div>
+<br> <br>
+<div id="contenido">
+	<h2>Backend</h2><br>
+	<p>
+
+		Conozco otras tecnologías a parte de las que ves arriba para desarrollar en backend, de hecho,
+		Java Script también te permite hacer APIs de forma muy sencilla, pero mi lenguaje de confianza
+		es Java y creo que es una opción acertada ya que es una tecnología muy polivalente y flexible.
+		<br> <br>
+		Me especialicé en Java en IT Academy de Barcelona y he competido en hackathons con Java desde
+		entonces. La mayoría de las aplicaciones web que he diseñado parten de Java y luego desarrollo
+		plantillas básicas con Thymeleaf o la biblioteca que más me propicie conseguir el resultado
+		adecuado. Por supuesto uso Spring (framework) y Spring Boot, creo que facilitan mucho el
+		trabajo.
+		<br> <br>
+		En cuanto a las <strong>bases de datos</strong>, me gusta mucho MongoDB y bases de datos no relacionales, me
+		parecen más naturales. SQL y bases de datos relacionales sé que es lo más común y lo que usan
+		las empresas con más carrera, por ello trato de usarlas tanto como uso Mongo.
+		<br> <br>
+		<strong>Otras tecnologías </strong>que he usado: C#, .NET y Java Script.
+	</p>
+</div>
+<br> <br> 
   `;
 });
 
