@@ -180,7 +180,9 @@ if (window.innerWidth < 600) {
     <a href="index.html" class="logo">PR</a>
     <a href="https://www.linkedin.com/in/peperamos090922/" class='item' id="link">Linkedin</a>
 </nav>
-
+<br><br><br><br><br>
+<p>Para una mejor experiéncia<br> consulta este mismo enlace <br> en tu ordenador.</p>
+<br>
 <div class="grid-gallery">
     <!-- Repeat structure -->
     <a class="grid-gallery__item" href="#">

@@ -1,21 +1,24 @@
-window.onload = function() {
+window.onload = function () {
 	//Obtiene el elemento de notificación por ID
 	var notificacion = document.getElementById("notificacion");
-	
+
 	//Muestra la notificación utilizando CSS
 	notificacion.classList.add("mostrar");
-	
+
 	//Establece un temporizador para ocultar la notificación después de 3 segundos
-	setTimeout(function() {
-	  notificacion.classList.remove("mostrar");
+	setTimeout(function () {
+		notificacion.classList.remove("mostrar");
 	}, 3000);
-  };
-  
+};
+
 
 // Obtiene los enlaces de Frontend y Backend por ID
 var frontendLink = document.getElementById("frontend-link");
 var backendLink = document.getElementById("backend-link");
-
+var moreWorkBtn = document.getElementById("morework");
+moreWorkBtn.addEventListener("click", function () {
+	window.location.href = "https://github.com/jramma";
+});
 // Obtiene el contenedor de la galería por ID
 var gallery = document.getElementById("gallery");
 
@@ -27,18 +30,29 @@ frontendLink.addEventListener("click", function (event) {
 	// Cambia el contenido de la galería para mostrar imágenes de Frontend
 	gallery.innerHTML = `
     <div class="row">
-      <div class="pics" id="p1"></div>
-      <div class="pics" id="p2"></div>
-      <div class="pics" id="p3"></div>
-      <div class="pics" id="p4"></div>
-    </div>
-	<p>aaa<p>
-    <div class="row">
-      <div class="pics" id="p5"></div>
-      <div class="pics" id="p6"></div>
-      <div class="pics" id="p7"></div>
-      <div class="pics" id="p8"></div>
-    </div>
+                    <div class="pics" id="p1"></div>
+                    <div class="pics" id="p2"></div>
+                    <div class="pics" id="p3"></div>
+                </div>
+                <br> <br>
+                <div id="contenido">
+                    <h2>Frontend</h2><br>
+                    <p>Aunque frontend no sea mi fuerte, esta web está programada por<br>
+                        mi con CSS, HTML5 y Java Script.<br> <br>En el primer vídeo
+                        puedes ver el apartado <a href="photo.html">"fotografía"</a> que puedes ver también <br>si navegas
+                        desde un ordenador. El segundo vídeo es otro portfolio, ya que este <br>
+                        no es el primero que hago. El tercero es un proyecto en el que trabaje <br>
+                        en el ITAcademy de Barcelona, está hecho con Angular y el back es Java.<br><br>
+                    En las hackathons suelo usar plantillas de terceros y construir sobre ellas,<br>
+               actualmente estoy aprendiendo Angular y ojeando un poco de react porque <br>
+               creo que me serían útiles. </p>
+                </div>
+                <br> <br> <br> <br> <br>
+                <div class="row">
+                    <div class="pics" id="v1"><video src="mp4/slide.mp4" autoplay loop controls></video></div>
+                    <div class="pics" id="v2"><video src="mp4/3.mp4" loop controls></video></div>
+                    <div class="pics" id="v3"><video src="mp4/proyect.mp4" loop controls></video></div>
+                </div>
   `;
 });
 
@@ -146,5 +160,6 @@ $(function () {
 		resetCallback: function () { }
 	});
 });
+
 
 

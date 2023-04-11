@@ -492,7 +492,9 @@ button:hover {
     flex-direction: column;
     margin-top: 100px;
 }
-
+#contenido{
+    text-align: center;
+}
 .row {
     min-width: 100%;
     min-height: 250px;
@@ -509,7 +511,6 @@ button:hover {
 .pics {
     width: 250px;
     height: 250px;
-    background-color: rgb(197, 163, 163);
     background-size: cover;
 }
 
@@ -585,25 +586,42 @@ button:hover {
 }
 
 #p4 {
-    background-image: url('');
+    background-image: url('img/java.png');
+    transition: 1s;
+    border-radius: 1rem;
 }
 
 #p5 {
-    background-image: url('');
+    background-image: url('img/sql-server.png');
+    transition: 1s;
+    border-radius: 1rem;
 }
 
 #p6 {
-    background-image: url('');
+    background-image: url('img/mongodb.png');
+    transition: 1s;
+    border-radius: 1rem;
 }
 
 #p7 {
-    background-image: url('');
+    margin-top: 2rem;
+    background-image: url('img/spring.jpeg');
+    transition: 1s;
+    border-radius: 1rem;
 }
 
 #p8 {
-    background-image: url('');
+    margin-top: 2rem;
+    background-image: url('img/git.png');
+    transition: 1s;
+    border-radius: 1rem;
 }
-
+#p9{
+    margin-top: 2rem;
+    background-image: url('img/jwt.png');
+    transition: 1s;
+    border-radius: 1rem;  
+}
 video {
     width: 100%;
     height: 100%;
