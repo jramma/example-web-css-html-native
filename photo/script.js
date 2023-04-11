@@ -269,3 +269,64 @@ if (window.innerWidth < 600) {
 </body>
   `;
 }
+
+image1.addEventListener("click", function(){
+  window.location.href = "https://jramma.github.io/photo/img/1.jpg";
+})
+image2.addEventListener("click", function(){
+  window.location.href = "https://jramma.github.io/photo/img/2.jpg";
+})
+image3.addEventListener("click", function(){
+  window.location.href = "https://jramma.github.io/photo/img/3.jpg";
+})
+image4.addEventListener("click", function(){
+  window.location.href = "https://jramma.github.io/photo/img/4.jpg";
+})
+image5.addEventListener("click", function(){
+  window.location.href = "https://jramma.github.io/photo/img/7.jpg";
+})
+image6.addEventListener("click", function(){
+  window.location.href = "https://jramma.github.io/photo/img/19.jpg";
+})
+image7.addEventListener("click", function(){
+  window.location.href = "https://jramma.github.io/photo/img/6.jpg";
+})
+image8.addEventListener("click", function(){
+  window.location.href = "https://jramma.github.io/photo/img/8.jpg";
+})
+image9.addEventListener("click", function(){
+  window.location.href = "https://jramma.github.io/photo/img/9.jpg";
+})
+image10.addEventListener("click", function(){
+  window.location.href = "https://jramma.github.io/photo/img/12.jpg";
+})
+image11.addEventListener("click", function(){
+  window.location.href = "https://jramma.github.io/photo/img/10.jpg";
+})
+image12.addEventListener("click", function(){
+  window.location.href = "https://jramma.github.io/photo/img/11.jpg";
+})
+image13.addEventListener("click", function(){
+  window.location.href = "https://jramma.github.io/photo/img/14.jpg";
+})
+image14.addEventListener("click", function(){
+  window.location.href = "https://jramma.github.io/photo/img/5.jpg";
+})
+image15.addEventListener("click", function(){
+  window.location.href = "https://jramma.github.io/photo/img/13.jpg";
+})
+image16.addEventListener("click", function(){
+  window.location.href = "https://jramma.github.io/photo/img/17.jpg";
+})
+image17.addEventListener("click", function(){
+  window.location.href = "https://jramma.github.io/photo/img/a.jpg";
+})
+image18.addEventListener("click", function(){
+  window.location.href = "https://jramma.github.io/photo/img/20.jpg";
+})
+image19.addEventListener("click", function(){
+  window.location.href = "https://jramma.github.io/photo/img/15.jpg";
+})
+image20.addEventListener("click", function(){
+  window.location.href = "https://jramma.github.io/photo/img/b.jpg";
+})
