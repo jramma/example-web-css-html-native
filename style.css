@@ -566,12 +566,16 @@ button:hover {
 }
 
 #p1 {
+    margin-top: 2rem;
+
     background-image: url('img/css.png');
     transition: 1s;
     border-radius: 1rem;
 }
 
 #p2 {
+    margin-top: 2rem;
+
     background-image: url('img/html5.png');
     transition: 1s;
     border-radius: 1rem;
@@ -579,6 +583,8 @@ button:hover {
 }
 
 #p3 {
+    margin-top: 2rem;
+
     background-image: url('img/js.png');
     transition: 1s;
     border-radius: 1rem;
@@ -586,18 +592,23 @@ button:hover {
 }
 
 #p4 {
+    margin-top: 2rem;
+
     background-image: url('img/java.png');
     transition: 1s;
     border-radius: 1rem;
 }
 
 #p5 {
+    margin-top: 2rem;
+
     background-image: url('img/sql-server.png');
     transition: 1s;
     border-radius: 1rem;
 }
 
 #p6 {
+    margin-top: 2rem;
     background-image: url('img/mongodb.png');
     transition: 1s;
     border-radius: 1rem;
