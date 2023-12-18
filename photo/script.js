@@ -112,7 +112,7 @@ image3.addEventListener("mouseover", function () {
 });
 
 image4.addEventListener("mouseover", function () {
-  myFooter.innerHTML = "Plaza Cataluña";
+  myFooter.innerHTML = "Cami de les aigües";
 });
 image5.addEventListener("mouseover", function () {
   myFooter.innerHTML = "Exposición No hay replay, artista:<br>Carlos Pazos";
